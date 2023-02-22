@@ -31,7 +31,7 @@ export default function Navbar({ data, nameClass }: NavbarProps) {
       </VStack>
       <HStack textAlign={"center"} justify="center">
         {data.map((user, index) => (
-          <Stack align={"center"} justify="center">
+          <Stack align={"center"} justify="center" key={index }>
             <AvatarWithRank
               avatar={user?.avatar}
               points={user?.points}
@@ -67,7 +67,7 @@ export default function Navbar({ data, nameClass }: NavbarProps) {
       </HStack>
       <Box mt={10}>
         {data.map((user, index) => {
-          return <Box p={1}>
+          return <Box p={1} key={index}>
             <SingleTop index={index} user={user} />
           </Box>
         })}
