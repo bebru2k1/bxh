@@ -187,7 +187,7 @@ export const pointsD02 = [{
 },
 {
     points: 10,
-    display_name: "Trâm Anh",
+    display_name: "Quỳnh Trâm",
     avatar
 }
 ]
