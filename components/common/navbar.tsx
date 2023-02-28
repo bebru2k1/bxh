@@ -1,3 +1,4 @@
+import { sortUser, transferUserPointTop3 } from "@/helper/transferUserPoint";
 import {
   Box, Container, Heading, HStack, Stack,
   Text,
@@ -30,7 +31,7 @@ export default function Navbar({ data, nameClass }: NavbarProps) {
         <Heading textAlign="center" p={10}>BXH Lớp {nameClass}</Heading>
       </VStack>
       <HStack textAlign={"center"} justify="center">
-        {data.map((user, index) => (
+        {transferUserPointTop3(data).map((user, index) => (
           <Stack align={"center"} justify="center" key={index }>
             <AvatarWithRank
               avatar={user?.avatar}
@@ -66,7 +67,7 @@ export default function Navbar({ data, nameClass }: NavbarProps) {
         ))}
       </HStack>
       <Box mt={10}>
-        {data.map((user, index) => {
+        {sortUser(data).map((user, index) => {
           return <Box p={1} key={index}>
             <SingleTop index={index} user={user} />
           </Box>
