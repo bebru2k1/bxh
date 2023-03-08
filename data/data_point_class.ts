@@ -17,7 +17,7 @@ export const pointsA03 = [
     //     avatar
     // },
     {
-        points: 10,
+        points: 10 + 10,
         display_name: "Thúy",
         avatar
     },
@@ -27,7 +27,7 @@ export const pointsA03 = [
         avatar
     },
     {
-        points: 10 + 20,
+        points: 10 + 20 + 10,
         display_name: "Hưng",
         avatar
     },
@@ -145,7 +145,7 @@ export const pointsA03 = [
         display_name: "Giang",
         avatar
     },{
-        points: 9,
+        points: 9 + 10,
         display_name: "Chi",
         avatar
     },{
@@ -153,7 +153,7 @@ export const pointsA03 = [
         display_name: "Hải",
         avatar
     },{
-        points: 9,
+        points: 9 + 10,
         display_name: "Quốc Anh",
         avatar
     },{
@@ -176,18 +176,46 @@ export const pointsA03 = [
 ]
 
 export const pointsD02 = [{
-    points: 20 + 10,
+    points: 20 + 10 + 20,
     display_name: "Tài",
     avatar
 },
 {
-    points: 20 + 10,
+    points: 20 + 10 + 20,
     display_name: "Mai",
     avatar
 },
 {
     points: 10,
     display_name: "Quỳnh Trâm",
+    avatar
+},
+{
+    points: 10,
+    display_name: "Anh Thư",
+    avatar
+},
+{
+    points: 10,
+    display_name: "Ngọc Anh Thư",
+    avatar
+},{
+    points: 10,
+    display_name: "Phương",
+    avatar
+},
+{
+    points: 10,
+    display_name: "Tiên",
+    avatar
+},{
+    points: 10,
+    display_name: "Thủy Tiên",
+    avatar
+},
+{
+    points: 10,
+    display_name: "Lê Na",
     avatar
 }
 ]
