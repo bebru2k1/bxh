@@ -17,7 +17,7 @@ export const pointsA03 = [
     //     avatar
     // },
     {
-        points: 10 + 10,
+        points: 10 + 10 + 10,
         display_name: "Thúy",
         avatar
     },
@@ -32,7 +32,7 @@ export const pointsA03 = [
         avatar
     },
     {
-        points: 10 + 20 + 10,
+        points: 10 + 20 + 10 + 30,
         display_name: "Anh Tuấn",
         avatar
     },{
@@ -52,7 +52,7 @@ export const pointsA03 = [
         display_name: "Quân",
         avatar
     },{
-        points: 10,
+        points: 10 + 10,
         display_name: "Phúc",
         avatar
     },{
@@ -92,7 +92,7 @@ export const pointsA03 = [
         display_name: "Phương",
         avatar
     },{
-        points: 10 + 10,
+        points: 10 + 10 + 30,
         display_name: "Dương",
         avatar
     },{
@@ -133,7 +133,7 @@ export const pointsA03 = [
         avatar
     },
     {
-        points: 9,
+        points: 9 + 10,
         display_name: "Trang",
         avatar
     },{
@@ -165,7 +165,7 @@ export const pointsA03 = [
         display_name: "Q. Bảo",
         avatar
     },{
-        points: 9 + 20,
+        points: 9 + 20 + 20,
         display_name: "Tùng",
         avatar
     },{
@@ -181,7 +181,7 @@ export const pointsD02 = [{
     avatar
 },
 {
-    points: 20 + 10 + 20,
+    points: 20 + 10 + 20 + 10,
     display_name: "Mai",
     avatar
 },
@@ -196,26 +196,41 @@ export const pointsD02 = [{
     avatar
 },
 {
-    points: 10,
+    points: 10 + 10,
     display_name: "Ngọc Anh Thư",
     avatar
 },{
-    points: 10,
+    points: 10 + 10,
     display_name: "Phương",
     avatar
-},
-{
-    points: 10,
-    display_name: "Tiên",
-    avatar
 },{
-    points: 10,
+    points: 10 + 10,
     display_name: "Thủy Tiên",
     avatar
 },
 {
-    points: 10,
+    points: 10 + 10,
     display_name: "Lê Na",
+    avatar
+},
+{
+    points: 10,
+    display_name: "Sang",
+    avatar
+},
+{
+    points: 10,
+    display_name: "Nguyễn Bảo Ngọc",
+    avatar
+},
+{
+    points: 10,
+    display_name: "Thùy Trang",
+    avatar
+},
+{
+    points: 10,
+    display_name: "Dương Châu",
     avatar
 }
 ]
